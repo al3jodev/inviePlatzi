@@ -1,13 +1,16 @@
 <html>
-    <head>
-        <title>Invie</title>
-        <style media="screen">
-        body{
+
+<head>
+    <title>Invie</title>
+    <style media="screen">
+        body {
             margin: 0;
             border: 10px solid #102b36;
         }
-        img{
+
+        img {
             max-width: 100%;
+            vertical-align: top;
         }
         </style>
     </head>
@@ -17,4 +20,24 @@
         <img src="acustica.jpg" alt="">
         <img src="clasica.jpg" alt="">
     </body>
+
+        img#responsive {
+                display: none;
+            }
+
+        @media screen and (max-width: 768px) {
+            img#responsive {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="invie-resposive.png" alt="" id="responsive">
+    <img src="header.jpg" alt="">
+    <img src="hero.jpg" alt="">
+    <img src="acustica.jpg" alt="">
+</body>
+
 </html>
