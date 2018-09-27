@@ -1,3 +1,4 @@
-# inviePlatzi
-Curso de Github realizado en Platzi.
-Tus mejores guitarras invisibles.
+# invie
+Las guitarras más locas
+
+http://leonidasesteban.github.io/invie-responsive/
